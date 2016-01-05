@@ -1,0 +1,117 @@
+body {
+      text-align: center;
+      background: black;
+      background-position: center;
+      color: white;
+      font-family: helvetica;
+    }
+
+.page-header {
+  display: flex;
+  text-align: center;
+  padding: 25px ;
+  background-image: url('http://www.publicdomainpictures.net/pictures/10000/nahled/blue-moon-jellyfish-11287755310hwEd.jpg');
+  background-size: cover; 
+}
+
+.page-title {
+    
+    color: white;
+    font-size: 48px;
+    text-align: center;
+    padding: 75px;
+}
+
+.lesson {
+    color: ##a78430;
+    padding: 25px;
+    margin: 10px auto;
+
+}
+
+.lesson-heading {
+    background-color: ;
+    color: white;
+    padding: 25px;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 28px;
+}
+
+.concept {
+    background-image: url("http://www.publicdomainpictures.net/download-picture.php?adresar=20000&soubor=jellyfish-background-871299518276q0p.jpg");
+    background-size: cover;
+    padding: 35px 20px;
+    margin: 10px 10px 35px 10px;
+    color: white;
+    font-size: 20px;
+    min-height: 55px;
+    max-height: 55px;
+    position: relative;
+    display: block;
+     -webkit-transition: max-height .3s ease-in-out, box-shadow 0.6s linear;
+    -moz-transition: max-height .3s ease-in-out, box-shadow 0.6s linear;
+    -o-transition: max-height .3s ease-in-out, box-shadow 0.6s linear;
+    -ms-transition: max-height .3s ease-in-out, box-shadow 0.6s linear;
+    transition: max-height .3s ease-in-out, box-shadow 0.6s linear;
+}
+
+.information {
+    color: rgba(255,255,255,1);
+    background: black;
+    font-size: 28px;
+    background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+    background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+    background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+    padding: 12px 0px;
+    line-height: 28px;
+    text-align: justify;
+    width: 100%;
+}
+
+.concept-heading {
+    padding: 0px 20px;
+    border-radius: 500px;
+    font-weight: lighter;
+    margin: 0;
+    color: rgba(255,255,255,1);
+    text-align: left;
+}
+
+.display-notes .information p {
+  opacity: 1;
+}
+
+.concept.display-notes {
+  max-height: 1000px;
+}
+
+ .information p {
+    font-size: 16px;
+    padding: 0 20px;
+    display: none;
+  }
+
+.toggle {
+  background-image: url('https://cdn4.iconfinder.com/data/icons/basic-ui-elements/700/07_plus-128.png');
+  height: 17px;
+  width: 17px;
+  display: inline-block;
+  background-size: cover;
+}
+
+.display-notes .toggle {
+   background-image: url('https://cdn4.iconfinder.com/data/icons/basic-ui-elements/700/07_minus-128.png');
+}
+
+.comments {
+  text-align: left;
+  padding: 25px;
+}
+
+.comment {
+  background-image: url('https://s-media-cache-ak0.pinimg.com/originals/d1/0c/ed/d10cedf385270d43972989a388d4b29b.gif');
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-left: 120px;
+}
